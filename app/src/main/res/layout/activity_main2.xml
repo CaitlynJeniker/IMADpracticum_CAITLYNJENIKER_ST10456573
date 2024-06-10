@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter min Temperature:"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="338dp" />
 
@@ -20,6 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter day:"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="156dp" />
 
@@ -28,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter max Temperature:"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="244dp" />
 
@@ -36,6 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Weather Conditions:"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="436dp" />
 

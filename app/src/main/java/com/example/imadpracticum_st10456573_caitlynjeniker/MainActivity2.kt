@@ -34,7 +34,6 @@ class MainActivity2 : AppCompatActivity() {
             addWeatherAppdata()
 
         }
-
         button4.setOnClickListener {
             val intent = Intent(this, detailed_view_screen: : class.java)
             intent.putExtra(“weatherAppData”, ArrayList(weatherAppData))
@@ -59,12 +58,9 @@ class MainActivity2 : AppCompatActivity() {
             “weatherCondition” to WeatherConditions
             addWeatherAppdata.add(entry)
             clearInputField()
-
         }
-
     }
-
-    Private fun clearInputFields() {
+    private fun clearInputFields() {
 
         Day.text.clear()
         MaxTemp.text.clear()

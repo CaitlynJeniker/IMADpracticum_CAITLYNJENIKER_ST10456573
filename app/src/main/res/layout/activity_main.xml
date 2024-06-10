@@ -50,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:text="ST10456573"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         tools:layout_editor_absoluteX="165dp" />
 
@@ -58,7 +59,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CAITLYN JENIKER"
+        android:textAlignment="textStart"
         android:textSize="14sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="149dp"
         tools:layout_editor_absoluteY="192dp" />
 
